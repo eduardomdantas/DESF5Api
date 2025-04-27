@@ -1,4 +1,4 @@
-﻿# Desf5 API
+﻿# DESF5 - Atividade do Desafio Final
 
 API para gestão de clientes, produtos e pedidos desenvolvida com .NET 8 e PostgreSQL
 
@@ -75,21 +75,23 @@ Desf5/
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/desf5.git
+```
 
 2. Inicie os containers:
 ```bash
 docker-compose up -d --build
+```
 
 3. Acesse a documentação:
 http://localhost:8080/swagger
 
-⚙ Configuração de Ambiente
+## ⚙ Configuração de Ambiente
 Crie um arquivo .env na raiz:
 POSTGRES_USER=admin
 POSTGRES_PASSWORD=******
 JWT_SECRET=<chave-secreta-forte>
 
-Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
 
 Desenvolvido por Eduardo Medeiros Dantas - 2025
